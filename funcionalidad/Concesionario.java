@@ -1,14 +1,14 @@
-package concesionario.funcionalidad;
+package concesionarioGUI.funcionalidad;
 
 import java.io.Serializable;
 import java.util.ArrayList;
 
-import concesionario.funcionalidad.excepciones.CocheNoExisteException;
-import concesionario.funcionalidad.excepciones.CocheYaExisteException;
-import concesionario.funcionalidad.excepciones.ColorNoValidoException;
-import concesionario.funcionalidad.excepciones.ListaVaciaException;
-import concesionario.funcionalidad.excepciones.MatriculaNoValidaException;
-import concesionario.funcionalidad.excepciones.ModeloNoValidoException;
+import concesionarioGUI.funcionalidad.excepciones.CocheNoExisteException;
+import concesionarioGUI.funcionalidad.excepciones.CocheYaExisteException;
+import concesionarioGUI.funcionalidad.excepciones.ColorNoValidoException;
+import concesionarioGUI.funcionalidad.excepciones.ListaVaciaException;
+import concesionarioGUI.funcionalidad.excepciones.MatriculaNoValidaException;
+import concesionarioGUI.funcionalidad.excepciones.ModeloNoValidoException;
 
 /*
  * No pueden existir dos coches con la misma matrícula en el almacén del concesinario

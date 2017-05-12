@@ -1,4 +1,4 @@
-package concesionario.funcionalidad;
+package concesionarioGUI.funcionalidad;
 
 public enum Color {
 	/**

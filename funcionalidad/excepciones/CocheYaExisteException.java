@@ -1,4 +1,4 @@
-package concesionario.funcionalidad.excepciones;
+package concesionarioGUI.funcionalidad.excepciones;
 
 public class CocheYaExisteException extends Exception {
 

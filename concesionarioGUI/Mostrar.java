@@ -1,9 +1,9 @@
-package concesionario.concesionarioGUI;
+package concesionarioGUI.concesionarioGUI;
 
 import java.awt.event.ActionListener;
 import java.util.ListIterator;
 
-import concesionario.funcionalidad.Coche;
+import concesionarioGUI.funcionalidad.Coche;
 
 import java.awt.event.ActionEvent;
 

@@ -1,4 +1,4 @@
-package concesionario.concesionarioGUI;
+package concesionarioGUI.concesionarioGUI;
 
 import java.awt.event.ItemEvent;
 import java.awt.event.ItemListener;
@@ -8,13 +8,13 @@ import javax.swing.DefaultComboBoxModel;
 import javax.swing.JComboBox;
 import javax.swing.JOptionPane;
 
-import concesionario.funcionalidad.Color;
-import concesionario.funcionalidad.Marca;
-import concesionario.funcionalidad.Modelo;
-import concesionario.funcionalidad.excepciones.CocheYaExisteException;
-import concesionario.funcionalidad.excepciones.ColorNoValidoException;
-import concesionario.funcionalidad.excepciones.MatriculaNoValidaException;
-import concesionario.funcionalidad.excepciones.ModeloNoValidoException;
+import concesionarioGUI.funcionalidad.Color;
+import concesionarioGUI.funcionalidad.Marca;
+import concesionarioGUI.funcionalidad.Modelo;
+import concesionarioGUI.funcionalidad.excepciones.CocheYaExisteException;
+import concesionarioGUI.funcionalidad.excepciones.ColorNoValidoException;
+import concesionarioGUI.funcionalidad.excepciones.MatriculaNoValidaException;
+import concesionarioGUI.funcionalidad.excepciones.ModeloNoValidoException;
 
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;

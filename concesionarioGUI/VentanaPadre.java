@@ -1,4 +1,4 @@
-package concesionario.concesionarioGUI;
+package concesionarioGUI.concesionarioGUI;
 
 import java.awt.BorderLayout;
 import java.awt.event.FocusAdapter;
@@ -8,7 +8,7 @@ import javax.swing.JButton;
 import javax.swing.JDialog;
 import javax.swing.JPanel;
 
-import concesionario.funcionalidad.*;
+import concesionarioGUI.funcionalidad.*;
 import javax.swing.JLabel;
 import javax.swing.JTextField;
 import javax.swing.JComboBox;

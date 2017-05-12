@@ -1,7 +1,7 @@
 /**
  * 
  */
-package concesionario.funcionalidad;
+package concesionarioGUI.funcionalidad;
 
 import java.io.BufferedOutputStream;
 import java.io.File;

@@ -1,11 +1,11 @@
-package concesionario.funcionalidad;
+package concesionarioGUI.funcionalidad;
 
 import java.io.Serializable;
 import java.util.regex.Pattern;
 
-import concesionario.funcionalidad.excepciones.ColorNoValidoException;
-import concesionario.funcionalidad.excepciones.MatriculaNoValidaException;
-import concesionario.funcionalidad.excepciones.ModeloNoValidoException;
+import concesionarioGUI.funcionalidad.excepciones.ColorNoValidoException;
+import concesionarioGUI.funcionalidad.excepciones.MatriculaNoValidaException;
+import concesionarioGUI.funcionalidad.excepciones.ModeloNoValidoException;
 
 /**
  * Representa a un coche.

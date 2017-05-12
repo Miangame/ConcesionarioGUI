@@ -1,4 +1,4 @@
-package concesionario.funcionalidad;
+package concesionarioGUI.funcionalidad;
 
 public enum Modelo {
 	CORDOBA(Marca.SEAT), TOLEDO(Marca.SEAT), IBIZA(Marca.SEAT), SERIE1(Marca.BMW), SERIE2(Marca.BMW), SERIE3(

@@ -1,4 +1,4 @@
-package concesionario.concesionarioGUI;
+package concesionarioGUI.concesionarioGUI;
 
 import java.awt.EventQueue;
 
@@ -7,11 +7,11 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 
-import concesionario.funcionalidad.*;
-import concesionario.funcionalidad.excepciones.CocheYaExisteException;
-import concesionario.funcionalidad.excepciones.ColorNoValidoException;
-import concesionario.funcionalidad.excepciones.MatriculaNoValidaException;
-import concesionario.funcionalidad.excepciones.ModeloNoValidoException;
+import concesionarioGUI.funcionalidad.*;
+import concesionarioGUI.funcionalidad.excepciones.CocheYaExisteException;
+import concesionarioGUI.funcionalidad.excepciones.ColorNoValidoException;
+import concesionarioGUI.funcionalidad.excepciones.MatriculaNoValidaException;
+import concesionarioGUI.funcionalidad.excepciones.ModeloNoValidoException;
 
 import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;

@@ -1,4 +1,4 @@
-package concesionario.concesionarioGUI;
+package concesionarioGUI.concesionarioGUI;
 
 import java.awt.FlowLayout;
 
@@ -10,10 +10,10 @@ import javax.swing.JPanel;
 import javax.swing.JRadioButton;
 import javax.swing.border.EmptyBorder;
 
-import concesionario.funcionalidad.Coche;
-import concesionario.funcionalidad.Color;
-import concesionario.funcionalidad.excepciones.CocheNoExisteException;
-import concesionario.funcionalidad.excepciones.ListaVaciaException;
+import concesionarioGUI.funcionalidad.Coche;
+import concesionarioGUI.funcionalidad.Color;
+import concesionarioGUI.funcionalidad.excepciones.CocheNoExisteException;
+import concesionarioGUI.funcionalidad.excepciones.ListaVaciaException;
 
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;

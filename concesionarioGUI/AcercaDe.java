@@ -1,4 +1,4 @@
-package concesionario.concesionarioGUI;
+package concesionarioGUI.concesionarioGUI;
 
 import java.awt.BorderLayout;
 import java.awt.FlowLayout;

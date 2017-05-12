@@ -1,11 +1,11 @@
-package concesionario.concesionarioGUI;
+package concesionarioGUI.concesionarioGUI;
 
 import javax.swing.JOptionPane;
 
-import concesionario.funcionalidad.Coche;
-import concesionario.funcionalidad.excepciones.CocheNoExisteException;
-import concesionario.funcionalidad.excepciones.ListaVaciaException;
-import concesionario.funcionalidad.excepciones.MatriculaNoValidaException;
+import concesionarioGUI.funcionalidad.Coche;
+import concesionarioGUI.funcionalidad.excepciones.CocheNoExisteException;
+import concesionarioGUI.funcionalidad.excepciones.ListaVaciaException;
+import concesionarioGUI.funcionalidad.excepciones.MatriculaNoValidaException;
 
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;

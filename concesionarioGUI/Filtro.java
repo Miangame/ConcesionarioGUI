@@ -1,11 +1,11 @@
-package concesionario.concesionarioGUI;
+package concesionarioGUI.concesionarioGUI;
 
 import java.io.File;
 import javax.swing.filechooser.FileFilter;
 
 /**
  *
- * @author Miguel �?ngel Gavilán Merino
+ * @author Miguel �?ngel Gavilán Merino
  */
 public class Filtro extends FileFilter {
 	/**

@@ -1,11 +1,11 @@
-package concesionario.concesionarioGUI;
+package concesionarioGUI.concesionarioGUI;
 
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 import java.util.ArrayList;
 import java.util.ListIterator;
 
-import concesionario.funcionalidad.Coche;
+import concesionarioGUI.funcionalidad.Coche;
 
 public class MostrarCocheColor extends VentanaPadre {
 
