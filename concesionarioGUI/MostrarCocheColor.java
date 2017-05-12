@@ -59,34 +59,35 @@ public class MostrarCocheColor extends VentanaPadre {
 			siguiente.setEnabled(true);
 			anterior.setEnabled(false);
 		}
+		iterador.next();
 		mostrarCoche(concesionario.get(0));
 	}
 
 	private void mostrarSiguiente() {
 		if (iterador.hasNext()) {
 			Coche cocheCopia = iterador.next();
-			if (concesionario.indexOf(cocheCopia) < concesionario.size()-1) {
-				cocheCopia = iterador.next();
-				mostrarCoche(cocheCopia);
-			} else {
-				mostrarCoche(cocheCopia);
-			}
+
+			mostrarCoche(cocheCopia);
 
 			comprobarBotones();
+			if (!iterador.hasNext()) {
+				iterador.previous();
+			}
+			
 		}
 	}
 
 	private void mostrarAnterior() {
 		if (iterador.hasPrevious()) {
 			Coche cocheCopia = iterador.previous();
-			if (concesionario.indexOf(cocheCopia) > 1) {
-				cocheCopia = iterador.previous();
-				mostrarCoche(cocheCopia);
-			} else {
-				mostrarCoche(cocheCopia);
-			}
+
+			mostrarCoche(cocheCopia);
 
 			comprobarBotones();
+		}
+		
+		if (!iterador.hasPrevious()) {
+			iterador.next();
 		}
 
 	}
