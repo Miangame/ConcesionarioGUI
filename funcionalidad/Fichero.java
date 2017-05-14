@@ -63,7 +63,8 @@ public class Fichero implements Serializable {
 
 	/**
 	 * Abre un fichero
-	 * @return 
+	 * 
+	 * @return
 	 * 
 	 * @return Contenido del fichero
 	 * @throws FileNotFoundException
@@ -76,16 +77,16 @@ public class Fichero implements Serializable {
 		try (ObjectInputStream in = new ObjectInputStream(new FileInputStream(archivo))) {
 			obj = in.readObject();
 		}
-		System.out.println(obj);
 		if (obj instanceof Concesionario)
-		return concesionario = (Concesionario) obj;
-		
+			return concesionario = (Concesionario) obj;
+
 		return concesionario;
 	}
 
 	/**
 	 * Guarda un objeto en un archivo
-	 * @param concesionario 
+	 * 
+	 * @param concesionario
 	 * 
 	 * @param objeto
 	 *            objeto que vamos a guardar
