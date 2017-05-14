@@ -72,15 +72,10 @@ public class Fichero implements Serializable {
 	 * @throws ClassNotFoundException
 	 */
 	public static Concesionario abrir(File archivo) throws FileNotFoundException, IOException, ClassNotFoundException {
-		Concesionario concesionario = null;
-		Object obj = null;
 		try (ObjectInputStream in = new ObjectInputStream(new FileInputStream(archivo))) {
-			obj = in.readObject();
+			return (Concesionario) in.readObject();
 		}
-		if (obj instanceof Concesionario)
-			return concesionario = (Concesionario) obj;
 
-		return concesionario;
 	}
 
 	/**

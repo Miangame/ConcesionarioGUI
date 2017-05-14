@@ -290,7 +290,6 @@ public class Principal extends JFrame {
 			try {
 				concesionario = Fichero.abrir(jFileChooser.getSelectedFile());
 				setTitle(Fichero.getArchivo().getName());
-				System.out.println(concesionario);
 			} catch (ClassNotFoundException e) {
 				JOptionPane.showMessageDialog(null, "El fichero no es un concesionario", "Error",
 						JOptionPane.INFORMATION_MESSAGE);
