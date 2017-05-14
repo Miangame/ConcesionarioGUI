@@ -105,8 +105,7 @@ public class Fichero implements Serializable {
 		if (patron.matcher(fichero.getName()).matches())
 			return fichero;
 		else
-			setArchivo(fichero.getAbsolutePath() + ".obj");
-		return fichero;
+			return new File (fichero.getAbsolutePath() + ".obj");
 	}
 
 }
