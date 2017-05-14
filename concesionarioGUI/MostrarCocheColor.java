@@ -16,6 +16,7 @@ public class MostrarCocheColor extends VentanaPadre {
 
 	private ArrayList<Coche> concesionario;
 	private ListIterator<Coche> iterador;
+	private Coche cocheCopia;
 
 	/**
 	 * Create the dialog.
@@ -59,13 +60,14 @@ public class MostrarCocheColor extends VentanaPadre {
 			siguiente.setEnabled(true);
 			anterior.setEnabled(false);
 		}
-		iterador.next();
-		mostrarCoche(concesionario.get(0));
+		cocheCopia = iterador.next();
+		
+		mostrarCoche(cocheCopia);
 	}
 
 	private void mostrarSiguiente() {
 		if (iterador.hasNext()) {
-			Coche cocheCopia = iterador.next();
+			cocheCopia = iterador.next();
 
 			mostrarCoche(cocheCopia);
 
@@ -79,7 +81,7 @@ public class MostrarCocheColor extends VentanaPadre {
 
 	private void mostrarAnterior() {
 		if (iterador.hasPrevious()) {
-			Coche cocheCopia = iterador.previous();
+			cocheCopia = iterador.previous();
 
 			mostrarCoche(cocheCopia);
 

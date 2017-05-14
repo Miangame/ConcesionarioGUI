@@ -14,6 +14,7 @@ public class Mostrar extends VentanaPadre {
 	 */
 	private static final long serialVersionUID = 1L;
 	private ListIterator<Coche> iterador;
+	private Coche cocheCopia;
 
 	/**
 	 * Create the dialog.
@@ -56,13 +57,14 @@ public class Mostrar extends VentanaPadre {
 			siguiente.setEnabled(true);
 			anterior.setEnabled(false);
 		}
-		iterador.next();
-		mostrarCoche(Principal.concesionario.get(0));
+		cocheCopia = iterador.next();
+		
+		mostrarCoche(cocheCopia);
 	}
 
 	private void mostrarSiguiente() {
 		if (iterador.hasNext()) {
-			Coche cocheCopia = iterador.next();
+			cocheCopia = iterador.next();
 
 			mostrarCoche(cocheCopia);
 
@@ -76,7 +78,7 @@ public class Mostrar extends VentanaPadre {
 
 	private void mostrarAnterior() {
 		if (iterador.hasPrevious()) {
-			Coche cocheCopia = iterador.previous();
+			cocheCopia = iterador.previous();
 
 			mostrarCoche(cocheCopia);
 
